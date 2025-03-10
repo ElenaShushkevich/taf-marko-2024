@@ -10,7 +10,7 @@ public class MarkoShoesSearchingTest extends BaseTest{
 
     @Test
     public void shoesSearching(){
-        homePage.inputShoes("туфли");
+        homePage.inputShoes("т");
         homePage.clickSearchButton();
         searchingResultPage.clickCookies();
         searchingResultPage.selectShoes();
