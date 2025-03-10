@@ -15,7 +15,7 @@ public class BaseTest {
     @BeforeAll
     public static void beforeTest() {
         driver = new ChromeDriver();
-        String url = "https://www.marko5.by/";
+        String url = "https://www.marko56.by/";
         driver.manage().window().maximize();
         driver.navigate().to(url);
     }
