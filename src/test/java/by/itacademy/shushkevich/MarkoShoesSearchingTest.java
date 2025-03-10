@@ -10,12 +10,13 @@ public class MarkoShoesSearchingTest extends BaseTest{
 
     @Test
     public void shoesSearching(){
-        homePage.inputShoes("туфли");
+        homePage.inputShoes("т");
         homePage.clickSearchButton();
         searchingResultPage.clickCookies();
         searchingResultPage.selectShoes();
         shoesItemPage.getShoesName();
-        //Assertions.assertEquals("Туфли летние дошкольные", shoesItemPage.getShoesName());
+        //Assertions.assertEquals("Туфли МАЛЬЧУКОВЫЕ дошкольные", shoesItemPage.getShoesName());
         Assertions.assertTrue(shoesItemPage.getShoesName().contains("Туфли"));
+        // need to update this test in future
     }
 }
