@@ -8,6 +8,6 @@ public class MarkoHomePageTest extends BaseTest {
     public void testHomePage(){
         HomePage homePage = new HomePage(driver);
 
-        Assertions.assertEquals("Разработано –", homePage.getTextDeveloper_Label());
+        Assertions.assertEquals("Разработано12365 –", homePage.getTextDeveloper_Label());
     }
 }
