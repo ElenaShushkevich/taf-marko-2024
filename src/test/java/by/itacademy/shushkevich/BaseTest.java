@@ -11,6 +11,7 @@ import java.util.concurrent.TimeUnit;
 public class BaseTest {
 
     static ChromeDriver driver;
+    static ChromeDriver driver;
 
     @BeforeAll
     public static void beforeTest() {
