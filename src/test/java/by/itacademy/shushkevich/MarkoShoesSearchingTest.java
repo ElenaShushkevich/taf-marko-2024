@@ -15,7 +15,7 @@ public class MarkoShoesSearchingTest extends BaseTest{
         searchingResultPage.clickCookies();
         searchingResultPage.selectShoes();
         shoesItemPage.getShoesName();
-        //Assertions.assertEquals("Туфли летние дошкольные", shoesItemPage.getShoesName());
+        //Assertions.assertEquals("Туфли МАЛЬЧУКОВЫЕ дошкольные", shoesItemPage.getShoesName());
         Assertions.assertTrue(shoesItemPage.getShoesName().contains("Туфли"));
     }
 }
